@@ -1,0 +1,4 @@
+function check(answer) {
+  document.getElementById("result").innerText =
+    answer === "Mitochondria" ? "✅ Correct!" : "❌ Try again!";
+}
