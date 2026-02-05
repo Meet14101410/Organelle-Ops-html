@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Organelle Ops</title>
+</head>
+<body>
+  <h1>🧫 Organelle Ops</h1>
+  <p>Question: Which organelle is the powerhouse of the cell?</p>
+
+  <button onclick="check('Mitochondria')">Mitochondria</button>
+  <button onclick="check('Nucleus')">Nucleus</button>
+  <button onclick="check('Ribosome')">Ribosome</button>
+
+  <p id="result"></p>
+
+  <script>
+    function check(answer) {
+      document.getElementById("result").innerText =
+        answer === "Mitochondria" ? "✅ Correct!" : "❌ Try again!";
+    }
+  </script>
+</body>
+</html>
